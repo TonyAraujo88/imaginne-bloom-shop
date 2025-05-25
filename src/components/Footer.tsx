@@ -1,10 +1,7 @@
-
 import { Button } from '@/components/ui/button';
 import { Instagram, Facebook } from 'lucide-react';
-
 const Footer = () => {
-  return (
-    <footer className="bg-gray-900 text-white">
+  return <footer className="bg-gray-900 text-white">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand section */}
@@ -16,20 +13,10 @@ const Footer = () => {
               Transformando suas ideias em peças únicas e especiais através do bordado artesanal.
             </p>
             <div className="flex space-x-4">
-              <Button 
-                variant="ghost" 
-                size="sm"
-                className="text-gray-300 hover:text-pink-medium"
-                onClick={() => window.open('https://instagram.com/imaginnebordados', '_blank')}
-              >
+              <Button variant="ghost" size="sm" className="text-gray-300 hover:text-pink-medium" onClick={() => window.open('https://instagram.com/imaginnebordados', '_blank')}>
                 <Instagram className="h-5 w-5" />
               </Button>
-              <Button 
-                variant="ghost" 
-                size="sm"
-                className="text-gray-300 hover:text-pink-medium"
-                onClick={() => window.open('https://facebook.com/imaginnebordados', '_blank')}
-              >
+              <Button variant="ghost" size="sm" className="text-gray-300 hover:text-pink-medium" onClick={() => window.open('https://facebook.com/imaginnebordados', '_blank')}>
                 <Facebook className="h-5 w-5" />
               </Button>
             </div>
@@ -63,7 +50,7 @@ const Footer = () => {
             <div className="text-gray-300 space-y-2">
               <p>📧 contato@imaginnebordados.com.br</p>
               <p>📱 WhatsApp: (11) 99999-9999</p>
-              <p>📍 São Paulo, SP</p>
+              <p>📍 Maceió, AL</p>
               <p>🕒 Seg - Sex: 9h às 18h</p>
             </div>
           </div>
@@ -74,8 +61,6 @@ const Footer = () => {
           <p className="mt-2">www.imaginnebordados.com.br</p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
