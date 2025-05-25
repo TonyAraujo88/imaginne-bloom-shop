@@ -49,7 +49,7 @@ const Footer = () => {
             <h4 className="font-semibold text-lg">Contato</h4>
             <div className="text-gray-300 space-y-2">
               <p>📧 contato@imaginnebordados.com.br</p>
-              <p>📱 WhatsApp: (11) 99999-9999</p>
+              <p>📱 WhatsApp: (82) 98891-6640</p>
               <p>📍 Maceió, AL</p>
               <p>🕒 Seg - Sex: 9h às 18h</p>
             </div>
